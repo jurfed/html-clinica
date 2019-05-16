@@ -24,6 +24,7 @@ public class CounterTest {
         for (final Reader reader : readers) {
             reader.start();
         }
+
         Thread.sleep(1000L);
         assertEquals(1201, counter.increase());
     }
