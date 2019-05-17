@@ -33,6 +33,7 @@ public class UserCreateServletTest extends Mockito {
         when(request.getParameter("login")).thenReturn("testLogin");
         when(request.getParameter("email")).thenReturn("testEmail");
 
+
         //создаем наш сервлет и посылаем в медот doPost указанные параметры
         new UserCreateServlet().doPost(request,response);
 
