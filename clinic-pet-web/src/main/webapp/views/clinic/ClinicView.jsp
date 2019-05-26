@@ -4,6 +4,17 @@
 <html>
 <head>
     <title></title>
+    <style><%@include file="/css/myStyle.css"%></style>
+    <script type="text/javascript" src="../../js/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript">
+
+        function createUser() {
+            var t=1;
+            alert("Заполните поля!!!!!!!!!!!!!"+t);
+        }
+
+    </script>
+
 </head>
 <body>
 <a href="${pageContext.servletContext.contextPath}/views/clinic/CreateClient.jsp">Добавить клиента</a>
@@ -28,6 +39,9 @@
     </c:forEach>
 </table>
 
+<div style="text-align: right;">
+    <input type="button" value="MESSAGE" onclick="return createUser();">
+</div>
 
 </body>
 </html>

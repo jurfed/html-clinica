@@ -4,6 +4,7 @@
 <html>
 <head>
 	<title></title>
+	<style><%@include file="/css/myStyle.css"%></style>
 </head>
 <body>
 <form action="${pageContext.servletContext.contextPath}/clinic/edit" method="POST">

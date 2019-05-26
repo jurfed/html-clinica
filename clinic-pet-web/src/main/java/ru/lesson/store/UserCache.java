@@ -13,35 +13,51 @@ import java.util.concurrent.ConcurrentHashMap;
  * @author jurfed
  * @since 18.04.2015
  */
-public class UserCache {
+public class UserCache implements Storage {
 
     // singleton - экземляр класса
     private static final UserCache INSTANCE = new UserCache();
+//    private final Storage storage = new MemomryStorage();
+    private final Storage storage = new JdbcStorage();
+
     public static UserCache getInstance() {
         return INSTANCE;
     }
 
-    //карта идентификаторов и пользователей
-    private final ConcurrentHashMap<Integer, User> users = new ConcurrentHashMap<Integer, User>();
-
     //коллекция пользователей
     public Collection<User> values() {
-        return this.users.values();
+        return this.storage.values();
     }
 
-    public void add(final User user) {
-        this.users.put(user.getId(), user);
+    @Override
+    public int add(final User user) {
+        return this.storage.add(user);
     }
 
     public void edit(final User user) {
-        this.users.replace(user.getId(), user);
+        this.storage.edit(user);
     }
 
     public void delete(final int id) {
-        this.users.remove(id);
+        this.storage.delete(id);
     }
 
     public User get(final int id) {
-        return this.users.get(id);
+        return this.storage.get(id);
+    }
+
+    @Override
+    public User findByLogin(String login) {
+        return this.storage.findByLogin(login);
+    }
+
+    @Override
+    public int generateId() {
+        return this.storage.generateId();
+    }
+
+    @Override
+    public void close() {
+        this.storage.close();
     }
 }
