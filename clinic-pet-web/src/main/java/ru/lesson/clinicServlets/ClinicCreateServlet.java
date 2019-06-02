@@ -28,9 +28,10 @@ public class ClinicCreateServlet extends HttpServlet {
 			try {
 
 				if(req.getParameter("petType").equals("dog")){
-					this.CLINIC_CACHE.getClinic().addClient(new Client(req.getParameter("clientName"),new Dog(new Animal(req.getParameter("petName")))));
+
+					this.CLINIC_CACHE.add(new Client(req.getParameter("clientName"),new Dog(new Animal(req.getParameter("petName")))));
 				}else{
-					this.CLINIC_CACHE.getClinic().addClient(new Client(req.getParameter("clientName"),new Cat(req.getParameter("petName"))));
+					this.CLINIC_CACHE.add(new Client(req.getParameter("clientName"),new Cat(req.getParameter("petName"))));
 				}
 
 

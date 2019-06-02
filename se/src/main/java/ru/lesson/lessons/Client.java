@@ -6,7 +6,6 @@ package ru.lesson.lessons;
 public class Client {
     private String id;
     private Pet pet;
-    private String petClass;
 
     public Client(String id, Pet pet) throws CreateClientException {
         if (id == null || id.equals("") || pet == null) {

@@ -2,7 +2,6 @@ package ru.lesson.clinicServlets;
 
 
 import ru.lesson.store.ClinicCache;
-import ru.lesson.store.UserCache;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

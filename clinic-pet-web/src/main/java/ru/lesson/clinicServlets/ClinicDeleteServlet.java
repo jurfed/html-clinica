@@ -27,7 +27,8 @@ public class ClinicDeleteServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        this.CLINIC_CACHE.getClinic().deleteClient(req.getParameter("clientName"));
+        this.CLINIC_CACHE.delete(req.getParameter("clientName"));
+//        this.CLINIC_CACHE.getClinic().deleteClient(req.getParameter("clientName"));
         resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/clinic/view"));
     }
 }

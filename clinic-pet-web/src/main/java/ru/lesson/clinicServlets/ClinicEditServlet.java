@@ -1,9 +1,7 @@
 package ru.lesson.clinicServlets;
 
 import ru.lesson.lessons.PetException;
-import ru.lesson.models.User;
 import ru.lesson.store.ClinicCache;
-import ru.lesson.store.UserCache;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -28,12 +26,10 @@ public class ClinicEditServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        try {
-            this.CLINIC_CACHE.getClinic().editClientName(req.getParameter("oldName"),req.getParameter("newName"));
-            this.CLINIC_CACHE.getClinic().editPetName(req.getParameter("oldPetName"),req.getParameter("newPetName"));
-        } catch (PetException e) {
-            e.printStackTrace();
-        }
+
+        this.CLINIC_CACHE.editClient(req.getParameter("oldName"), req.getParameter("newName"));
+        this.CLINIC_CACHE.editPet(req.getParameter("oldPetName"), req.getParameter("newPetName"));
+
         resp.sendRedirect(String.format("%s%s", req.getContextPath(), "/clinic/view"));
     }
 }

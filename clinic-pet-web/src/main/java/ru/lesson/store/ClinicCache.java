@@ -1,26 +1,42 @@
 package ru.lesson.store;
 
 import ru.lesson.lessons.*;
+import ru.lesson.models.User;
+
+import java.util.Collection;
+import java.util.List;
 
 public class ClinicCache {
     Clinic clinic;
 
     private static final ClinicCache CLINIC_CACHE  = new ClinicCache();
 
+    private final ClinicJdbcStorage storage = new ClinicJdbcStorage();
+
 
     private ClinicCache(){
         clinic = new Clinic();
-        try {
-            for(int i=1; i<3; i++){
-                clinic.addClient(new Client("Bob"+i, new Cat("Cat"+i)));
-                clinic.addClient(new Client("Alice"+i, new Dog(new Animal("Dog"+i))));
-            }
-        } catch (CreateClientException e) {
-            e.printStackTrace();
-        } catch (PetException e) {
-            e.printStackTrace();
-        }
+        Collection<Client> clients = storage.getUsers();
+        clients.forEach(client->{
+            clinic.addClient(client);
+        });
 
+    }
+
+    public void add(Client client){
+        storage.add(client);
+    }
+
+    public void delete(String clientName){
+        storage.deleteClient(clientName);
+    }
+
+    public void editClient(String oldName, String newName){
+        storage.editClientName(oldName, newName);
+    }
+
+    public void editPet(String oldName, String newName){
+        storage.editPetName(oldName, newName);
     }
 
     public static ClinicCache getInstance(){
@@ -28,6 +44,11 @@ public class ClinicCache {
     }
 
     public Clinic getClinic() {
+        clinic = new Clinic();
+        Collection<Client> clients = storage.getUsers();
+        clients.forEach(client->{
+            clinic.addClient(client);
+        });
         return clinic;
     }
 }
