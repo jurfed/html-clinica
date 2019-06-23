@@ -7,137 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="252799ed-353e-4cfe-b00d-49aeb821abe2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Message.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Role.hbm.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/clinic-pet-web/sql/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/sql/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/servlets/UserCreateServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/servlets/UserCreateServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/servlets/UserEditServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/servlets/UserEditServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/HibernateStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/HibernateStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/JdbcStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/JdbcStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/User.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/User.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/test/java/ru/lesson/store/HibernateStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/test/java/ru/lesson/store/HibernateStorageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/test/java/ru/lesson/store/JdbcStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/test/java/ru/lesson/store/JdbcStorageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/CreateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/CreateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/EditUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/EditUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/UserView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/src/main/webapp/views/user/UserView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/servlets/UserCreateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/servlets/UserCreateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/servlets/UserEditServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/servlets/UserEditServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/store/JdbcStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/classes/ru/lesson/store/JdbcStorage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/se-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/WEB-INF/lib/se-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/CreateUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/CreateUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/EditUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/EditUser.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/UserView.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/ClinicPetWeb/views/user/UserView.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/servlets/UserCreateServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/servlets/UserCreateServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/servlets/UserEditServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/servlets/UserEditServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/store/JdbcStorage.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/classes/ru/lesson/store/JdbcStorage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/coverage-reports/jacoco-unit.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicCreateServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicCreateServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicDeleteServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicDeleteServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicEditServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicEditServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicViewServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/ClinicViewServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.clinicServlets/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.models/User.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.models/User.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.models/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.models/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/ClinicServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/ClinicServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserCreateServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserCreateServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserDeleteServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserDeleteServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserEditServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserEditServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserViewServlet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/UserViewServlet.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.servlets/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.store/ClinicCache.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.store/ClinicCache.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.store/UserCache.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.store/UserCache.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.store/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/site/jacoco/ru.lesson.store/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.clinicServlets.ClinicCreateServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.clinicServlets.ClinicDeleteServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.clinicServlets.ClinicEditServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.clinicServlets.ClinicViewServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.servlets.ClinicServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.servlets.UserCreateServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.servlets.UserDeleteServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/TEST-ru.lesson.servlets.UserEditServletTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.clinicServlets.ClinicCreateServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.clinicServlets.ClinicDeleteServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.clinicServlets.ClinicEditServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.clinicServlets.ClinicViewServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.servlets.ClinicServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.servlets.UserCreateServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.servlets.UserDeleteServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/surefire-reports/ru.lesson.servlets.UserEditServletTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clinic-pet-web/target/test-classes/ru/lesson/store/JdbcStorageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/clinic-pet-web/target/test-classes/ru/lesson/store/JdbcStorageTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/se/target/classes/ru/lesson/lessons/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/se-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/CalculatorTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-CalculatorTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-calculator.CalculatorTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-lesson_12.BlockQueueTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-lesson_12.CounterTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-lesson_13.BaseActionTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/TEST-ru.lesson.lessons.ClinicTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/calculator.CalculatorTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/lesson_12.BlockQueueTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/lesson_12.CounterTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/lesson_13.BaseActionTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/se/target/surefire-reports/ru.lesson.lessons.ClinicTest.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/se/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -262,14 +133,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/HibernateStorage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+            <state relative-caret-position="307">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clinic-pet-web/sql/schema.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -293,23 +173,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/Role.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-              <folding>
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#173#174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Role.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -318,7 +185,7 @@
         <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Message.hbm.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -327,7 +194,7 @@
         <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="207">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -423,7 +290,6 @@
         <option value="$PROJECT_DIR$/se/src/main/java/ru/lesson/lessons/Animal.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Clinic.hbm.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/Message.java" />
-        <option value="$PROJECT_DIR$/clinic-pet-web/sql/schema.sql" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/servlets/UserCreateServlet.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/JdbcStorage.java" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/servlets/UserEditServlet.java" />
@@ -439,6 +305,7 @@
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Message.hbm.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Role.hbm.xml" />
         <option value="$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/HibernateStorage.java" />
+        <option value="$PROJECT_DIR$/clinic-pet-web/sql/schema.sql" />
       </list>
     </option>
   </component>
@@ -798,7 +665,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561304252088" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561305250315" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="true" />
@@ -1016,7 +883,7 @@
       <workItem from="1558861549064" duration="18536000" />
       <workItem from="1559464662296" duration="9347000" />
       <workItem from="1560680231626" duration="10827000" />
-      <workItem from="1561282576269" duration="18553000" />
+      <workItem from="1561282576269" duration="19420000" />
     </task>
     <task id="LOCAL-00001" summary="html-jsp-mock-jacoco">
       <created>1558089486861</created>
@@ -1081,7 +948,14 @@
       <option name="project" value="LOCAL" />
       <updated>1561288593651</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="work all without delete">
+      <created>1561304292139</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561304292139</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1117,13 +991,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79703000" />
+    <option name="totallyTimeSpent" value="80570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="2" width="1751" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24068598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24068598" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1135,7 +1009,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.31962025" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3449367" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3449367" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1169,7 +1043,8 @@
     <MESSAGE value="users hibernate" />
     <MESSAGE value="users hibernate fix bug" />
     <MESSAGE value="temp" />
-    <option name="LAST_COMMIT_MESSAGE" value="temp" />
+    <MESSAGE value="work all without delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="work all without delete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1313,13 +1188,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/clinic-pet-web/sql/schema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1429,7 @@
     <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
           <folding>
             <element signature="e#141#142#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
@@ -1572,7 +1440,7 @@
     <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/models/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1625,14 +1493,14 @@
     <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Message.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="47" lean-forward="true" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/resources/lesson/models/Role.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="57" lean-forward="true" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -1665,11 +1533,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clinic-pet-web/src/main/java/ru/lesson/store/HibernateStorage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+        <state relative-caret-position="307">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clinic-pet-web/sql/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="64" lean-forward="true" selection-start-line="13" selection-start-column="64" selection-end-line="13" selection-end-column="64" />
         </state>
       </provider>
     </entry>
