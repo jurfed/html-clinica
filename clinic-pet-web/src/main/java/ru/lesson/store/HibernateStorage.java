@@ -87,7 +87,7 @@ public class HibernateStorage implements Storage{
         try{
             final Query query = session.createQuery("from User as user where user.login=:login");
             query.setString("login",login);
-            return (User)((List) query).iterator().next();
+            return (User) query.iterate().next();
         }finally{
             tx.commit();
             session.close();
