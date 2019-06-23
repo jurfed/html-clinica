@@ -4,7 +4,7 @@
 
 <hibernate-configuration>
     <session-factory>
-        <property name="hibernate.dialect">org.hibernate.dialect.PostgresPlusDialect</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://127.0.0.1:5432/19-lesson</property>
         <property name="hibernate.connection.username">postgres</property>
@@ -20,6 +20,9 @@
         <property name="hibernate.connection.provider_class">org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider</property>
 
         <!-- List of XML mapping files -->
+        <mapping resource="lesson/models/Role.hbm.xml"/>
         <mapping resource="lesson/models/User.hbm.xml"/>
+        <mapping resource="lesson/models/Message.hbm.xml"/>
+
     </session-factory>
 </hibernate-configuration>

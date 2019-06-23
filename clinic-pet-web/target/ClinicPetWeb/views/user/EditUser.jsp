@@ -22,6 +22,12 @@
 			</td>
 		</tr>
 		<tr>
+			<td align="right" >Role: </td>
+			<td>
+				<input type="text" name="role" value="${user.role.name}">
+			</td>
+		</tr>
+		<tr>
 			<td><input type="submit" align="center" value="Submit"/></td>
 		</tr>
 	</table>

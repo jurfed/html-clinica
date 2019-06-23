@@ -13,5 +13,10 @@
         </id>
         <property name="login" column="login" type="string"/>
         <property name="email" column="email" type="string"/>
+        <many-to-one name="role" column="role_id" class="ru.lesson.models.Role" cascade="all"/>
+        <set name="messages" table="messages" lazy="false" inverse="true" cascade="all" >
+            <key column="user_id" not-null="true"/>
+            <one-to-many class="ru.lesson.models.Message"/>
+        </set>
     </class>
 </hibernate-mapping>

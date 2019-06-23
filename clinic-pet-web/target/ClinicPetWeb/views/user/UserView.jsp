@@ -15,7 +15,7 @@
 	</tr>
 	<c:forEach items="${users}" var="myUser" varStatus="status">
 		<tr valign="top">
-			<td>${myUser.login} ${myUser.email}</td>
+			<td>${myUser.login} ${myUser.email} ${myUser.role.name}</td>
 			<td>
 				<a href="${pageContext.servletContext.contextPath}/user/edit?id=${myUser.id}">Редактировать</a>
 				<a href="${pageContext.servletContext.contextPath}/user/delete?id=${myUser.id}">Удалить</a>

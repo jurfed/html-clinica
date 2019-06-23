@@ -33,7 +33,7 @@ public class JdbcStorage implements Storage {
             Statement statement = this.connection.createStatement();
             ResultSet rs = statement.executeQuery("select * from client");
             while (rs.next()) {
-                users.add(new User(rs.getInt("uid"), rs.getString("login"), rs.getString("email")));
+                users.add(new User(rs.getInt("uid"), rs.getString("login"), rs.getString("email"), rs.getString("role")));
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -96,7 +96,7 @@ public class JdbcStorage implements Storage {
             try{
                 ResultSet rs = statement.executeQuery();
                 while(rs.next()){
-                    return new User(rs.getInt("uid"), rs.getString("login"), rs.getString("email"));
+                    return new User(rs.getInt("uid"), rs.getString("login"), rs.getString("email"),rs.getString("role"));
                 }
             }catch (SQLException e) {
                 e.printStackTrace();

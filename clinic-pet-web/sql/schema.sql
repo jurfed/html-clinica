@@ -1,17 +1,28 @@
 
 -- for test client db
 create table client(
-uid serial primary key,
-login varchar(200),
-email varchar(200)
+		uid serial primary key,
+		login varchar(200),
+		email varchar(200),
+		role_id int not null references roles(uid)
 );
 
+create table roles (
+		uid serial primary key,
+		name varchar(200)
+);
 
-create table pet(
+create table messages (
+		uid serial primary key,
+		text  character varying,
+		user_id int not null references client(uid)
+);
+
+/*create table pet(
 uid serial primary key,
 client_id int not null references client(uid),
 nick varchar(200)
-);
+);*/
 
 
 /*create table adress(
