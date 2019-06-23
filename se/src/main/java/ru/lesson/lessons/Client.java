@@ -7,6 +7,9 @@ public class Client {
     private String id;
     private Pet pet;
 
+    public Client(){}
+
+
     public Client(String id, Pet pet) throws CreateClientException {
         if (id == null || id.equals("") || pet == null) {
             throw new CreateClientException("id or pet must not be null");

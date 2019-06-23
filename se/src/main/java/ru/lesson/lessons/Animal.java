@@ -5,6 +5,18 @@ package ru.lesson.lessons;
  */
 public class Animal implements Pet {
 
+    protected int id;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Animal(){}
+
     private String name;
 
 

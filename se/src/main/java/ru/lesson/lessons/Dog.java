@@ -3,9 +3,18 @@ package ru.lesson.lessons;
 /**
  * Created by jur on 04.01.2019.
  */
-public class Dog implements Pet{
-    private final Pet pet;
+public class Dog extends Animal implements Pet {
+    private Pet pet;
 
+    public Pet getPet() {
+        return pet;
+    }
+
+    public void setPet(Pet pet) {
+        this.pet = pet;
+    }
+
+    public Dog(){}
 
     public Dog(final Pet pet) {
         this.pet = pet;

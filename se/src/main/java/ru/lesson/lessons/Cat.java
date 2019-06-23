@@ -5,6 +5,11 @@ package ru.lesson.lessons;
  */
 public class Cat extends Animal {
 
+    public Cat(){
+        //super();
+    }
+
+
     public Cat(final String name) throws PetException {
         super(name);
     }

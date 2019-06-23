@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="ru.lesson.lessons.Client" table="client">
+        <meta attribute="class-description">
+            This class contains the user
+        </meta>
+        <id name="id" type="java.lang.String" column="name">
+            <generator class="identity"/>
+        </id>
+    </class>
+
+    <class name="ru.lesson.lessons.Cat" table="pet">
+        <meta attribute="class-description">
+            This class contains the pet
+        </meta>
+        <id name="id" type="java.lang.Integer" column="uid">
+            <generator class="identity"/>
+        </id>
+        <property name="name" column="name" type="string"/>
+        <property name="" column="name" type="string"/>
+    </class>
+
+</hibernate-mapping>
