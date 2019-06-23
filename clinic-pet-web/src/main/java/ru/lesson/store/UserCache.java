@@ -18,7 +18,8 @@ public class UserCache implements Storage {
     // singleton - экземляр класса
     private static final UserCache INSTANCE = new UserCache();
 //    private final Storage storage = new MemomryStorage();
-    private final Storage storage = new JdbcStorage();
+//    private final Storage storage = new JdbcStorage();
+    private final Storage storage = new HibernateStorage();
 
     public static UserCache getInstance() {
         return INSTANCE;

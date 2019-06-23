@@ -7,7 +7,7 @@
 </head>
 <body>
 <form action="${pageContext.servletContext.contextPath}/user/edit" method="POST">
-	<input type="hidden" name="id" value="${user.id}">
+	<%--<input type="hidden" name="id" value="${user.id}">--%>
 	<table>
 		<tr>
 			<td align="right" >Login : </td>
@@ -19,6 +19,12 @@
 			<td align="right" >Email : </td>
 			<td>
 				<input type="text" name="email" value="${user.email}">
+			</td>
+		</tr>
+		<tr>
+			<td align="right" >Id : </td>
+			<td>
+				<input type="text" name="id" value="${user.id}">
 			</td>
 		</tr>
 		<tr>
