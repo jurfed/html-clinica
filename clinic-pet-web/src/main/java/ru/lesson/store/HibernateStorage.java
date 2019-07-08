@@ -10,10 +10,10 @@ import ru.lesson.models.User;
 import java.util.Collection;
 import java.util.List;
 
-public class HibernateStorage implements Storage{
+public class HibernateStorage implements Storage {
     private final SessionFactory factory;
 
-    public HibernateStorage(){
+    public HibernateStorage() {
         factory = new Configuration().configure().buildSessionFactory();
     }
 
@@ -21,9 +21,9 @@ public class HibernateStorage implements Storage{
     public Collection<User> values() {
         final Session session = factory.openSession();
         Transaction tx = ((Session) session).beginTransaction();
-        try{
+        try {
             return session.createQuery("from User").list();
-        }finally{
+        } finally {
             tx.commit();
             session.close();
         }
@@ -33,10 +33,10 @@ public class HibernateStorage implements Storage{
     public int add(User user) {
         final Session session = factory.openSession();
         Transaction tx = ((Session) session).beginTransaction();
-        try{
+        try {
             session.save(user);
             return user.getId();
-        }finally{
+        } finally {
             tx.commit();
             session.close();
         }
@@ -47,9 +47,9 @@ public class HibernateStorage implements Storage{
     public void edit(User user) {
         final Session session = factory.openSession();
         Transaction tx = ((Session) session).beginTransaction();
-        try{
+        try {
             session.update(user);
-        }finally{
+        } finally {
             tx.commit();
             session.close();
         }
@@ -60,9 +60,11 @@ public class HibernateStorage implements Storage{
     public void delete(int id) {
         final Session session = factory.openSession();
         Transaction tx = ((Session) session).beginTransaction();
-        try{
-            session.delete(new User(id,null,null, "11"));
-        }finally{
+        try {
+            final Query query = session.createQuery("from User as user where user.id=:id");
+            query.setInteger("id", id);
+            session.delete((User) query.iterate().next());
+        } finally {
             tx.commit();
             session.close();
         }
@@ -84,11 +86,11 @@ public class HibernateStorage implements Storage{
     public User findByLogin(String login) {
         final Session session = factory.openSession();
         Transaction tx = ((Session) session).beginTransaction();
-        try{
+        try {
             final Query query = session.createQuery("from User as user where user.login=:login");
-            query.setString("login",login);
+            query.setString("login", login);
             return (User) query.iterate().next();
-        }finally{
+        } finally {
             tx.commit();
             session.close();
         }
