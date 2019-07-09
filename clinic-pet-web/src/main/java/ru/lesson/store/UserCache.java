@@ -1,6 +1,7 @@
 package ru.lesson.store;
 
 
+import ru.lesson.models.Message;
 import ru.lesson.models.User;
 
 import java.util.Collection;
@@ -17,7 +18,7 @@ public class UserCache implements Storage {
 
     // singleton - экземляр класса
     private static final UserCache INSTANCE = new UserCache();
-//    private final Storage storage = new MemomryStorage();
+    //    private final Storage storage = new MemomryStorage();
 //    private final Storage storage = new JdbcStorage();
     private final Storage storage = new HibernateStorage();
 
@@ -60,5 +61,10 @@ public class UserCache implements Storage {
     @Override
     public void close() {
         this.storage.close();
+    }
+
+    @Override
+    public void addMessage(Message message) {
+        this.storage.addMessage(message);
     }
 }

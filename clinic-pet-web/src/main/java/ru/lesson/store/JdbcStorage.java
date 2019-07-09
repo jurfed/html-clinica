@@ -1,5 +1,6 @@
 package ru.lesson.store;
 
+import ru.lesson.models.Message;
 import ru.lesson.models.User;
 import ru.lesson.service.Settings;
 
@@ -125,5 +126,10 @@ public class JdbcStorage implements Storage {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+    @Override
+    public void addMessage(Message message) {
+
     }
 }

@@ -4,6 +4,13 @@ public class Message extends Base {
 	private User user;
 	private String text;
 
+	public Message(){}
+
+	public Message(User user, String text){
+		this.user = user;
+		this.text = text;
+	}
+
 	public User getUser() {
 		return user;
 	}

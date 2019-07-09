@@ -1,5 +1,6 @@
 package ru.lesson.store;
 
+import ru.lesson.models.Message;
 import ru.lesson.models.User;
 
 import java.util.Collection;
@@ -21,5 +22,7 @@ public interface Storage {
     public int generateId();
 
     public void close();
+
+    public void addMessage(Message message);
 
 }

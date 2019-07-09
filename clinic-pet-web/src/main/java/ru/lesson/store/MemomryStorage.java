@@ -1,5 +1,6 @@
 package ru.lesson.store;
 
+import ru.lesson.models.Message;
 import ru.lesson.models.User;
 
 import java.util.Collection;
@@ -56,6 +57,11 @@ public class MemomryStorage implements Storage {
 
     @Override
     public void close() {
+
+    }
+
+    @Override
+    public void addMessage(Message message) {
 
     }
 }

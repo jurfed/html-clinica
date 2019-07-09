@@ -5,6 +5,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
+import ru.lesson.models.Message;
 import ru.lesson.models.User;
 
 import java.util.Collection;
@@ -61,9 +62,11 @@ public class HibernateStorage implements Storage {
         final Session session = factory.openSession();
         Transaction tx = ((Session) session).beginTransaction();
         try {
-            final Query query = session.createQuery("from User as user where user.id=:id");
+/*            final Query query = session.createQuery("from User as user where user.id=:id");
             query.setInteger("id", id);
-            session.delete((User) query.iterate().next());
+            session.delete((User) query.iterate().next());*/
+
+            session.delete((User) session.get(User.class, id));
         } finally {
             tx.commit();
             session.close();
@@ -104,5 +107,17 @@ public class HibernateStorage implements Storage {
     @Override
     public void close() {
 
+    }
+
+    @Override
+    public void addMessage(Message message) {
+        final Session session = factory.openSession();
+        Transaction tx = ((Session) session).beginTransaction();
+        try {
+            session.save(message);
+        } finally {
+            tx.commit();
+            session.close();
+        }
     }
 }
